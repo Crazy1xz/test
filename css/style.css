@@ -168,6 +168,12 @@ button, a, a.btn,
    background-size: cover;
    transition: 1s opacity;
  }
+ @media(max-width:960px){
+   .container{
+     padding-right:3rem;
+     padding-left:3rem;
+   }
+ }
 
 .caption {
    z-index: 1;
